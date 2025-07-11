@@ -1,3 +1,44 @@
 .hero {
-  scroll-margin-top: 100px;
+  margin-top: 40px;
+}
+.hero_title {
+  display: block;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+.hero_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.hero_item {
+  background-color: rgb(98, 89, 77);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  max-width: 350px;
+}
+.hero_item_title {
+  font-size: 30px;
+  order: 2;
+  color: white;
+}
+.hero_item_link {
+  font-size: 18px;
+  order: 3;
+  color: white !important;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.hero_item_image {
+  order: 1;
+  width: 100%;
 }

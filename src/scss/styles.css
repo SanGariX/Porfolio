@@ -4,18 +4,8 @@
 
 /* #region import css style */
 @import './reset.css';
-
-@import './header.css';
-@import './footer.css';
-@import './pages.css';
-@import './cookies.css';
-
-@import './about.css';
-@import './faq.css';
-@import './features.css';
-@import './contacts.css';
 @import './hero.css';
-@import './reviews.css';
+
 /* #endregion */
 :root {
   /* #region fonts */
@@ -37,7 +27,6 @@
   max-width: 375px;
   margin: 0 auto;
   padding: 0 16px;
-  display: flex;
 }
 
 .title-h2 {
@@ -46,8 +35,6 @@
 }
 .text-p {
   display: block;
-}
-.section {
 }
 @media screen and (min-width: 1440px) {
   .container {
