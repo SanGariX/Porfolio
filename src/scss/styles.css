@@ -1,0 +1,77 @@
+/* #region google fonts */
+
+/* #endregion */
+
+/* #region import css style */
+@import './reset.css';
+
+@import './header.css';
+@import './footer.css';
+@import './pages.css';
+@import './cookies.css';
+
+@import './about.css';
+@import './faq.css';
+@import './features.css';
+@import './contacts.css';
+@import './hero.css';
+@import './reviews.css';
+/* #endregion */
+:root {
+  /* #region fonts */
+
+  /* #endregion */
+
+  /* #region colors */
+
+  /* #endregion */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  background: rgb(45, 45, 45);
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+}
+
+.title-h2 {
+  display: block;
+  width: 100%;
+}
+.text-p {
+  display: block;
+}
+.section {
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 80px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.wrapper {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+.wrapper.loaded {
+  opacity: 1;
+}
