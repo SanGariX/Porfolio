@@ -8,8 +8,8 @@ export const data = [
   },
   {
     title: 'BlogYo',
-    urlDeploy: 'https://github.com/SanGariX/BlogYo',
-    urlFiles: 'https://sangarix.github.io/BlogYo/',
+    urlDeploy: 'https://sangarix.github.io/BlogYo/',
+    urlFiles: 'https://github.com/SanGariX/BlogYo',
     img: img[1],
   },
   {
